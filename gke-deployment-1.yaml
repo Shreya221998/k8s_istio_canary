@@ -20,7 +20,7 @@ spec:
       containers:
         - name: flask-1
           imagePullPolicy: Always
-          image: flask-image1
+          image: 995040/canary-deployment:flask1
           ports:
             - containerPort: 8080
 ---
