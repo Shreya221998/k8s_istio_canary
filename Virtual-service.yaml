@@ -17,10 +17,10 @@ spec:
         port:
           number: 80
         subset: subset-v1
-      weight: 0
+      weight: 50
     - destination:
         host: lbservice
         port:
           number: 80
         subset: subset-v2
-      weight: 100
+      weight: 50
